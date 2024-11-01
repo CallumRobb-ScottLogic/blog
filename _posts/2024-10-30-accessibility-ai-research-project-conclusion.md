@@ -13,7 +13,7 @@ image: "/uploads/llms%20accessibility.png"
 ---
 
 ## Summary of our Accessibility AI Research Project
-This project began with the idea of using an LLM to aid accessibility testing - would it be possible for it to navigate a webpage accurately and determine how easy it is to find specific information?
+This project began with the idea of using an LLM to aid user testing - would it be possible for it to navigate a webpage accurately and determine how easy it is to find specific information?
 
 ## How we did it
 This research could be broken down into two distinct parts:
@@ -32,8 +32,8 @@ First of all, we had to take some time to learn how we could work with the AI - 
 ## The Process - Identifying metrics for the tests
 Next up, we needed to identify the metrics that we wanted to use for both the User Test and the LLM Test, things that were easily measurable and that we could compare. We settled on three key metrics that we wanted to use
 
-**The Success Rate**: Quite simply, was the answer correct?
-**The Driectness**: Did the user take the optimal path to the answer? Or did they have to navigate through unrelated nodes before settling on the answer?
+**The Success Rate**: Quite simply, was the answer correct?  
+**The Driectness**: Did the user take the optimal path to the answer? Or did they have to navigate through unrelated nodes before settling on the answer?  
 **The Time Taken**: Was it faster using the LLM or were humans quicker?
 
 We also wanted to gather data around how the user managed with the questions:
@@ -67,7 +67,7 @@ From here we manipulated the data to make it easy to understand, and be able to 
 ## The Insights
 Lets take a look at some comparisons between the human experiment and the LLM.
 
-![The percentage of correct answers between the human test and the llm test]({{site.github.url }}/crobb/assets/PercentageCorrectHumanVsLMM.png)
+![The percentage of correct answers between the human test and the llm test]({{site.github.url }}/crobb/assets/PercentageCorrectHumanVsLLM.png)
 
 Ah okay, the LLM does not seem to have managed to do as well as the humans overall has it? Lets take a look at our directness metric (the most optimal route to the right answer) in the correct answers.
 
