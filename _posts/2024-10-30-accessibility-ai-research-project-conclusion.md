@@ -38,7 +38,7 @@ First of all, we had to take some time to learn how we could work with the AI - 
 Next up, we needed to identify the metrics that we wanted to use for both the User Test and the LLM Test, things that were easily measurable and that we could compare. We settled on three key metrics that we wanted to use
 
 **The Success Rate**: Quite simply, was the answer correct?  
-**The Driectness**: Did the user take the optimal path to the answer? Or did they have to navigate through unrelated nodes before settling on the answer?  
+**The Directness**: Did the user take the optimal path to the answer? Or did they have to navigate through unrelated nodes before settling on the answer?  
 **The Time Taken**: Was it faster using the LLM or were humans quicker?
 
 We also wanted to gather data around how the user managed with the questions:
